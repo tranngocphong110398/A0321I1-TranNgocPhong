@@ -1,0 +1,25 @@
+.abc{
+    margin-left: 300px;
+    size: 100px;
+    color: blue;
+}
+p{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    color: white;
+    background-color: red;
+}
+table{
+    margin-left: 300px;
+}
+.ppp{
+    margin-left: 300px;
+    font-size: 18px;
+    color: blue;
+}
+.table{
+    margin-left: 130px;
+    color: orange;
+}
+.button{
+    margin-left: 438px;
+}
