@@ -1,0 +1,22 @@
+table{
+    font-family: "Times New Roman";
+    border-collapse: collapse;
+    width: 100%;
+
+}
+tr{
+    height: 100px;
+
+}
+.dayco1 tr:nth-child(odd){
+    background-color: white;
+}
+.dayco1 tr:nth-child(even){
+    background-color: black;
+}
+/*tr:nth-child(even){*/
+/*    background-color: black;*/
+/*}*/
+/*tr:nth-child(odd){*/
+/*    background-color: white;*/
+/*}*/
