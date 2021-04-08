@@ -1,0 +1,30 @@
+table{
+    font-family: "Times New Roman";
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.dongtkb1{
+    text-align: center;
+    border: none;
+    color: blue;
+}
+.dongtkb2 th{
+    color: white;
+    background-color: red;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+.dongtkb2 td{
+    background-color: orange;
+    color: white;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+tr+td{
+    color: red;
+}
+/*th,td{*/
+/*    border: 1px solid #dddddd;*/
+/*    text-align: left;*/
+/*}*/
