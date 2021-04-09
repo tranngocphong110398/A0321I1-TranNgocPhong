@@ -1,0 +1,16 @@
+let diemvatly=parseInt(prompt("nhập vào điểm môn vật lý "));
+let diemhoahoc=parseInt(prompt("nhập vào điểm môn hóa học"));
+let diemsinhhoc=parseInt(prompt("nhập vào điểm môn sinh học"));
+let diemtb=(diemvatly+diemhoahoc+diemsinhhoc)/3;
+let diemtong=diemvatly+diemhoahoc+diemsinhhoc;
+alert("điểm tổng các môn là : "+diemtong);
+alert("điểm trung bình  các môn là : "+diemtb);
+let Celsiuss=parseInt(prompt("nhập vào giá trị của độ C"));
+let Fahrenheit=9/5*Celsiuss+32;
+alert("Từ Độ C sang độ F là "+Fahrenheit);
+let bankinh=parseInt(prompt("nhập vào bán kính hình tròn "));
+let pi=Math.PI;
+let dientichhinhtron=bankinh*bankinh*pi;
+let chuvihinhtron=bankinh*2*pi;
+alert("đây là diện tích hình tròn :"+dientichhinhtron);
+alert("chu vi hình tròn là : "+chuvihinhtron);
