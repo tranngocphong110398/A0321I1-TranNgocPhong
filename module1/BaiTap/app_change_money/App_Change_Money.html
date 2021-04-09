@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ỨNG DỤNG CHUYỂN ĐỔI TIỀN TỆ</title>
+    <link rel="stylesheet" href="nhung_css_chuyen_doi_tien.css">
+    <script src="Nhung_js_chuyen_tien_te.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td><label>AMOUNT</label></td>
+            <td><label>FROM Currency</label></td>
+            <td><label>To Currency</label></td>
+        </tr>
+        <tr>
+            <td><input type="number" placeholder="nhập số tiền cần chuyển đổi" id="txt_money" size="50"></td>
+            <td>
+                <select style="width: 100px" id="from">
+                    <option value="VietNam">VND</option>
+                    <option value="America">USD</option>
+                </select>
+            </td>
+            <td>
+                <select style="width: 100px" id="currency">
+                    <option value="America">USD</option>
+                    <option value="VietNam">VND</option>
+                </select>
+            </td>
+            <td>
+                <button style="width: 100px" id="btnconvert" onclick="chuyendoitien();">Convert</button></td>
+        </tr>
+    </table>
+    <p id="kq">kq</p>
+
+</body>
+</html>
