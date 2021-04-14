@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CREATE CACULATOR ADVANCED</title>
+    <link rel="stylesheet" href="nhung_css_caculator_advanced.css">
+
+</head>
+<body>
+    <table>
+        <tr class="d1">
+            <td colspan="7"><input type="text" id="txt_inputnumber" placeholder="0" size="130"> </td>
+        </tr>
+        <tr class="d2">
+            <td><input type="button" value="Rad" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="----" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="x!" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="(" onclick="dis('(')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value=")" onclick="dis(')')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="%" onclick="dis('%')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="AC" onclick="clr()" style="width: 100%;height: 100%"></td>
+        </tr>
+        <tr class="d2">
+            <td><input type="button" value="lnV"  style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="sin" onclick="dis('sin')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="ln" onclick="dis('ln')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="7" onclick="dis('7')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="8" onclick="dis('8')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="9" onclick="dis('9')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="/" onclick="dis('/')" style="width: 100%;height: 100%"></td>
+        </tr>
+        <tr class="d2">
+            <td><input type="button" value="π" onclick="dis('π')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="cos" onclick="dis('cos')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="log" onclick="dis('log')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="4" onclick="dis('4')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="5" onclick="dis('5')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="6" onclick="dis('6')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="*" onclick="dis('*')" style="width: 100%;height: 100%"></td>
+        </tr>
+        <tr class="d2">
+            <td><input type="button" value="e" onclick="dis('e')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="tan" onclick="dis('tan')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="√" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="1" onclick="dis('1')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="2" onclick="dis('2')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="3" onclick="dis('3')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="-" onclick="dis('-')" style="width: 100%;height: 100%"></td>
+        </tr>
+        <tr class="d2">
+            <td><input type="button" value="Ans" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="Exp" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="0" onclick="dis('0')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="." onclick="dis('.')" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="x^y" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="=" onclick="solve()" style="width: 100%;height: 100%"></td>
+            <td><input type="button" value="+" onclick="dis('+')" style="width: 100%;height: 100%"></td>
+        </tr>
+
+    </table>
+</body>
+<script src="nhung_js_caculator_advanced.js"></script>
+</html>

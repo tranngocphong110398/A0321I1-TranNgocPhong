@@ -1,0 +1,12 @@
+table{
+    font-family: "Times New Roman";
+    width: 100%;
+    border-collapse: collapse;
+}
+ table th{
+    font-family: "Times New Roman";
+    color: darkblue;
+}
+ th,td{
+     text-align: left;
+ }

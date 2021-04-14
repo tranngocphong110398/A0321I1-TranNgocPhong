@@ -1,0 +1,18 @@
+table{
+    font-family: "Times New Roman";
+    border-collapse: separate;
+    width: 40%;
+    border-spacing: 15px;
+}
+table td{
+    border: 1px solid #dddddd;
+    width: 50px;
+}
+.d1{
+    border: none;
+    background-color: white;
+}
+.d2 td{
+    height: 50px;
+    background-color: white;
+}

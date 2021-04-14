@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator </title>
+    <link rel="stylesheet" href="nhung_css_caculator_basic.css">
+    <script src="nhung_js_caculator_basic.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Caculator</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="txt_text1"></td>
+        <td><input type="text" id="txt_text2"></td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button"  id="btn_Add" onclick="add()">Addtion(+)</button>
+        </td>
+        <td>
+            <button type="button"  id="btn_Sub" onclick="sub()" >Subtraction(-)</button>
+        </td>
+        <td>
+            <button type="button"  id="btn_DivMul" onclick="mul()">Multiplication(*)</button>
+        </td>
+        <td>
+            <button type="button"  id="btn_" onclick="div()">Division(/)</button>
+        </td>
+        <td>
+            <button type="button" id="btn_clear" onclick="clr()" >Clear</button>
+        </td>
+    </tr>
+</table>
+<p id="result">result:</p>
+</body>
+</html>
