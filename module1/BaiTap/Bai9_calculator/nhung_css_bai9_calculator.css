@@ -1,0 +1,10 @@
+table tr{
+     width: 50px;
+     height: 50px;
+ }
+button{
+    width: 50px;
+    height: 50px;
+    color: blue;
+    background-color: white;
+}
